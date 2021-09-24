@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>CS Quiz</title>
+	<meta charset="UTF-8">
+	<meta name="Self-Grading Quiz" content="HW10">
+	<meta name="Princess Owotade" content="HW10.hmtl">
+    <link rel="stylesheet" href="quiz.css">
+    <script type="text/javascript" src="Answers.js" defer></script>
+</head> 
+
+<body>
+
+<div id="quiz">
+    <div id="header">
+    <h1>Computer Science Quiz</h1>
+    </div>
+    
+    
+    
+    <div id="true-false">
+            
+            <h3>True/False</h3>
+        
+                1. "URL" stands for "Universal Reference Link". 
+                <br>
+                <br>
+                <form id="q1">
+                    <label><input id="q1-1" name = "truefalse" type = "radio" value = "True">True </label>
+                    <label><input id="q1-2" name = "truefalse" type = "radio" value = "False">False </label>
+                </form>
+        
+                <br>
+                <br>
+        
+                2. An Apple MacBook is an example of a Linux system.
+                <br>
+                <br>
+                <form id="q2">
+                    <label><input id="q2-1" name = "truefalse" type = "radio" value = "True">True </label>
+                    <label><input id="q2-2" name = "truefalse" type = "radio" vale = "False">False </label>
+                </form>
+        
+                <br>
+                
+    
+        </div>
+    
+    <div id="multi-choice">
+            
+        <h3>Multiple Choice</h3>
+            
+            3. Which of these do NOT contribute to packet delay in a packet switching network?
+            <br>
+            <br>
+            
+        <label><input id="q3-a" type="checkbox" name="3options" value="Process-delay"> Processing delay at a router</label>
+        <label><input id="q3-b" type="checkbox" name="3options" value="CPU"> CPU workload on a client</label>
+        <label><input id="q3-c" type="checkbox" name="3options" value="Trans-delay"> Transmission delay along a communications link</label> 
+        <label><input id="q3-d" type="checkbox" name="3options" value="Prop-delay"> Propagation delay</label>
+            
+        
+            <br>
+            
+            4. This Internet layer is responsible for creating the packets that move across the network.
+            <br>
+            <br>
+            
+        <label><input id="q4-a" type="checkbox" name="4options" value="Physical"> Physical</label>
+        <label><input id="q4-b" type="checkbox" name="4options" value="Data-Link"> Data Link</label>
+        <label><input id="q4-c" type="checkbox" name="4options" value="Network"> Network</label>
+        <label><input id="q4-d" type="checkbox" name="4options" value="Transport"> Transport</label>
+            
+    </div>
+    
+    <div id="fill-in">
+        
+        <h3>Fill in the Blank</h3>
+        
+            5. <input name="fill" type="text" id="fill-1"> is a networking protocol that runs over TCP/IP, and governs communication between web browsers and web servers.
+            
+            <br>
+            <br>
+            
+            6. A small icon displayed in a browser tab that identifies a website is called a<input name="fill" type="text" id="fill-2">.
+        <br>
+        <br>
+    
+    </div>
+    
+    
+    
+
+
+    <button type ="submit" value = "Grade" onclick = "ans_bank(document.getElementById('q1-1'),document.getElementById('q1-2'), document.getElementById('q2-1'), document.getElementById('q2-2'), document.getElementById('q3-a'),document.getElementById('q3-b'),document.getElementById('q3-c'),document.getElementById('q3-d'),document.getElementById('q4-a'),document.getElementById('q4-b'),document.getElementById('q4-c'),document.getElementById('q4-d'),document.getElementById('fill-1').value,document.getElementById('fill-2').value)">Grade</button>
+    
+    <button type = "reset" value = "Clear" onclick = "Clr()">Clear</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@font-face{
+    
+    font-family: Leiko;
+    src: url(Leiko.otf);
+}
+
+
+
+
+body {
+background-color: #B7E0DC;
+font-family: Leiko;
+}
+
+#quiz {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+font-family: Leiko;
+padding-bottom: 25px;
+
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("coding.png");
+color: white;
+font-family: Leiko;
+}
+
+label {
+display: block;
+font-family: Leiko;
+}
+
+input[type=radio], input[type=checkbox] {
+width: 10px;
+margin-left: 20px;
+margin-right: 15px;
+font-family: Leiko;
+}
+
+input[type=text] {
+    
+    width: 100px;
+    margin-left: 5px;
+    font-family: Leiko;
+    font-size: 11pt;
+}
+
+button {
+width: 300px;
+margin-top: 20px;
+padding: 14px 20px;
+border-radius: 10px;
+border: 0px;
+background-color: #C0C0C0;
+color: black;
+font-size: 11pt;
+font-family: Leiko;
+cursor: pointer;
+}
+button:active {
+  background:#e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
